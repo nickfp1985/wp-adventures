@@ -24,7 +24,7 @@ get_header(); ?>
         <h2 class="background-soft-text">People</h2>
       </div>
       <h6>TRAVELERS</h6>
-      <div class="people-section">
+      <div class="people-section" id="people-cards">
         <div class="cards-display">
 
           <?php
@@ -113,17 +113,17 @@ get_header(); ?>
 
         <ul class="video-navigation">
 
-          <!-- <li onClick="videoUrl('http://power-digital.test/wp-content/uploads/2020/02/amalfi-coast.mp4')"> -->
+          <!-- <li onClick="videoUrl('http://adventures.local/wp-content/uploads/2020/02/amalfi-coast.mp4')"> -->
           <li onClick="videoUrl('<?php echo $videoGallery['video_one']; ?>')">
             <img src="<?php echo $videoGallery['video_one_image']; ?>">
           </li>
 
-          <!-- <li onClick="videoUrl('http://power-digital.test/wp-content/uploads/2020/02/Desert-Crater.mp4')"> -->
+          <!-- <li onClick="videoUrl('http://adventures.local/wp-content/uploads/2020/02/Desert-Crater.mp4')"> -->
           <li onClick="videoUrl('<?php echo $videoGallery['video_two']; ?>')">
             <img src="<?php echo $videoGallery['video_two_image']; ?>">
           </li>
 
-          <!-- <li onClick="videoUrl('http://power-digital.test/wp-content/uploads/2020/02/coverr-yachts-near-coast-1578680739741.mp4')"> -->
+          <!-- <li onClick="videoUrl('http:/adventures.local/wp-content/uploads/2020/02/coverr-yachts-near-coast-1578680739741.mp4')"> -->
           <li onClick="videoUrl('<?php echo $videoGallery['video_three']; ?>')">
             <img src="<?php echo $videoGallery['video_three_image']; ?>">
           </li>
@@ -180,6 +180,11 @@ get_header(); ?>
         modal.style.display = "none";
         activeModal = null;
       }
+
+      // HORIZONTAL OVERFLOW FOR TRAVELERS
+      // function overflowScroll() {
+      //   document.getElementById("people-cards").style.overflowX = "scroll";
+      // }
     </script>
 </main>
 

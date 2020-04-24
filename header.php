@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nick Peddie Assessment</title>
+  <title>Adventure Tours</title>
   <meta name="description" content="Power Digital Marketing assessment project." />
   <meta name="author" content="Nick Peddie" />
 
@@ -43,7 +43,7 @@
         <a href="https://www.facebook.com/" target="https://www.facebook.com/"><img class="social-icon" id="facebook" src="<?php bloginfo('template_directory'); ?>/icons/icon-facebook.svg" /></a>
       <?php endif; ?>
       <?php if ($hero['twitter_link']) : ?>
-        <a href="https://www.twitter.com/" target="https://www.twitter.com/"><img class="social-icon" id="twitter" src="<?php bloginfo('template_directory'); ?>/icons/icon-twitter.svg" /></a>
+        <a href="https://twitter.com/nickfp1985" target="https://twitter.com/nickfp1985"><img class="social-icon" id="twitter" src="<?php bloginfo('template_directory'); ?>/icons/icon-twitter.svg" /></a>
       <?php endif; ?>
       <?php if ($hero['pinterest_link']) : ?>
         <a href="https://www.pinterest.com/" target="https://www.pinterest.com/"><img class="social-icon" id="pinterest" src="<?php bloginfo('template_directory'); ?>/icons/icon-pinterest.svg" /></a>
